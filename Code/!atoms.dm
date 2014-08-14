@@ -962,7 +962,7 @@
 	var/h_filter = 0.0
 	var/s_fire = 0.0
 	var/see_face = 1.0
-	var/color = null
+	var/item_color = null
 	var/brute_protect = 0.0
 	var/fire_protect = 0.0
 /obj/item/weapon/clothing/ears
@@ -1260,11 +1260,11 @@ obj/item/weapon/clothing/suit/labcoat
 /obj/item/weapon/clothing/under/orange
 	name = "Orange Jumpsuit"
 	icon_state = "o_suit"
-	color = "orange"
+	item_color = "orange"
 /obj/item/weapon/clothing/under/pink
 	name = "Pink Jumpsuit (F)"
 	icon_state = "p_suit"
-	color = "pink"
+	item_color = "pink"
 /obj/item/weapon/clothing/under/red
 	name = "Red Jumpsuit"
 	icon_state = "r_suit"
@@ -1282,7 +1282,7 @@ obj/item/weapon/clothing/suit/labcoat
 /obj/item/weapon/clothing/under/darkgreen
 	name = "Dark Green Jumpsuit"
 	icon_state = "dg_suit"
-	color = "darkgreen"
+	item_color = "darkgreen"
 /obj/item/weapon/clothing/under/grey
 	name = "Grey Jumpsuit"
 	icon_state = "gy_suit"
@@ -1489,11 +1489,11 @@ obj/item/weapon/clothing/suit/labcoat
 /obj/item/weapon/implant
 	name = "implant"
 	var/implanted = null
-	var/color = "b"
+	var/item_color = "b"
 /obj/item/weapon/implant/freedom
 	name = "freedom"
 	var/uses = 1.0
-	color = "r"
+	item_color = "r"
 /obj/item/weapon/implant/tracking
 	name = "tracking"
 	var/freq = 145.1
@@ -1718,7 +1718,7 @@ obj/item/weapon/clothing/suit/labcoat
 /obj/item/weapon/paint
 	name = "Paint Can"
 	icon_state = "paint_neutral"
-	var/color = "neutral"
+	var/item_color = "neutral"
 	s_istate = "paintcan"
 	w_class = 3.0
 /obj/item/weapon/paper
@@ -2615,7 +2615,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "team"
 	var/captain = null
 	var/obj/ctf_assist/master = null
-	var/color = null
+	var/item_color = null
 	var/base = null
 	var/max_players = 20.0
 

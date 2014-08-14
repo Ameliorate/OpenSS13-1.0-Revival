@@ -23,7 +23,7 @@ obj/machinery/atmoalter/canister
 	weight = 1.0E7
 
 	var
-		color = "blue"				// used to set icon_state
+		item_color = "blue"				// used to set icon_state
 		health = 20.0				// health removed by attacks & fire
 		destroyed = null			// true if the canister has broken
 		filled = 1.0				//fractional fullness at spawn 0=empty, 1=full
@@ -363,7 +363,7 @@ Pipe Valve Status: [ct]<BR>
 	poisoncanister
 		name = "Canister \[Plasma (Bio)\]"
 		icon_state = "orange"
-		color = "orange"
+		item_color = "orange"
 
 		New()
 			..()
@@ -390,7 +390,7 @@ Pipe Valve Status: [ct]<BR>
 	anesthcanister
 		name = "Canister: \[N2O\]"
 		icon_state = "redws"
-		color = "redws"
+		item_color = "redws"
 
 		New()
 			..()
